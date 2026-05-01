@@ -1,0 +1,3 @@
+fake m0byw4t3l jest zjebany i spojżałem do kodu i jakiś debil zrobił tak że wysyłasz swoje zdj do imgur...
+ja śię w to nie bawię nie bd upubliczniał moich zdj awięc mamy fork z zpatchowanym index.js i zdj zamiast wlinku jest teraz zakodowane w base64 pownno działać
+polecam marcin kuskowski
