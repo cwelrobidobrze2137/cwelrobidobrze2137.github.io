@@ -27,7 +27,7 @@ npm install -g http-server -y
 cd /storage/emulated/0/id
 ```
 ```bash
-http-server -p 8080
+http-server -p 8080 -a 127.0.0.1
 ```
 5. Wejdz na http://localhost:8080/index.html na przeglądarce google lub chrome i to wszystko
 
@@ -37,7 +37,7 @@ PONOWNE URUCHOMIENIE
 cd /storage/emulated/0/id
 ```
 ```bash
-http-server -p 8080
+http-server -p 8080 -a 127.0.0.1
 ```
 2. Wejdz na http://localhost:8080/index.html na przeglądarce google lub chrome i to wszystko
 ## IOS:
