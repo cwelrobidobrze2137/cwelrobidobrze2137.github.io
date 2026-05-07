@@ -13,7 +13,13 @@ PIERWSZE URUCHOMIENIE
 apt update -y && apt upgrade -y
 ```
 ```bash
-apt install python -y
+pkg update -y && pkg upgrade -y
+```
+```bash
+pkg install nodejs -y
+```
+```bash
+npm install -g http-server -y
 ```
 3. Pobierz to repozytorium i wypakuj ję pod nazwą "id" w folderze głównym (zwanym też jako root lub /storage/emulated/0/ czyli poprostu obok folderu pobranych) 
 4. W termux'ie wpisz te komendy:
@@ -21,7 +27,7 @@ apt install python -y
 cd /storage/emulated/0/id
 ```
 ```bash
-python3 -m http.server 8080
+http-server -p 8080
 ```
 5. Wejdz na http://localhost:8080/index.html na przeglądarce google lub chrome i to wszystko
 
@@ -31,7 +37,7 @@ PONOWNE URUCHOMIENIE
 cd /storage/emulated/0/id
 ```
 ```bash
-python3 -m http.server 8080
+http-server -p 8080
 ```
 2. Wejdz na http://localhost:8080/index.html na przeglądarce google lub chrome i to wszystko
 ## IOS:
