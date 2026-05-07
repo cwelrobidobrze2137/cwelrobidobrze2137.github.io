@@ -23,7 +23,7 @@ cd /storage/emulated/0/id
 ```bash
 python3 -m http.server 8080
 ```
-5. Wejdz na http://localhost:8080/index na przeglądarce google lub chrome i to wszystko
+5. Wejdz na http://localhost:8080/index.html na przeglądarce google lub chrome i to wszystko
 
 PONOWNE URUCHOMIENIE
 1. Otwórz Termux'a i wpisz te komendy:
@@ -33,6 +33,6 @@ cd /storage/emulated/0/id
 ```bash
 python3 -m http.server 8080
 ```
-2. Wejdz na http://localhost:8080/index na przeglądarce google lub chrome i to wszystko
+2. Wejdz na http://localhost:8080/index.html na przeglądarce google lub chrome i to wszystko
 ## IOS:
 Brak - nie mam użądzenia z IOS'em aby stworzyć instrukcje
