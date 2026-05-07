@@ -71,7 +71,7 @@ document.querySelector(".go").addEventListener("click", () => {
     empty.push(upload);
     upload.classList.add("error_shown");
   } else {
-    sessionStorage.setItem("profile_image", upload.getAttribute("selected"));
+    params.set("image", upload.getAttribute("selected"));
   }
 
   const day = document.getElementById("day");
@@ -110,7 +110,6 @@ function isEmpty(value) {
 }
 
 function forwardToId(params) {
-  params.delete("image");
   location.href = "/id?" + params;
 }
 
